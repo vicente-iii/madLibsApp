@@ -19,7 +19,8 @@ alert('All done! Ready for your totally-accurate, not-at-all confusing history o
 //let userInputs = ["Splat Land", "Putin", "Crazed Goblin", "Goblinator"];
 
 //Crafting the Story
-let originalStory = `In ${userInputs[0]}, computer pioneer ${userInputs[1]} found herself working on a ${userInputs[2]}. Word got out that the team had "debugged" the ${userInputs[3]}`;
+let originalStory = `<h2>In ${userInputs[0]}, computer pioneer ${userInputs[1]} found herself working on a ${userInputs[2]}. Word got out that the team had "debugged" the ${userInputs[3]}</h2>`;
 console.log(originalStory);
+document.write(originalStory);
 
 //'In ${userInputs[0]}, computer pioneer ${userInputs[1]} found herself working on a ${userInputs[2]}. Word got out that the team had "debugged" the ${userInputs[2]}'
