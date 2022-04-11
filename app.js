@@ -1,14 +1,14 @@
 //Questions
-let numberOfQuestions = 4;
 let questionArray = ["Enter a venue", "Enter a name", "Enter a disgustign object", "Enter an event"]
+let numberOfQuestions = questionArray.length;
 
 //Store user inputs
 let userInputs = [];
 let questionCounter = 0;
 for (let i = numberOfQuestions; i > 0; i--) {
-    console.log(i);
-    console.log(questionCounter);
-    console.log(questionArray[questionCounter]);
+    //console.log(i);
+    //console.log(questionCounter);
+    console.log(questionArray[questionCounter] + `: ${i} questions left`);
     userInputs.push(questionCounter);
     questionCounter++;
 }
