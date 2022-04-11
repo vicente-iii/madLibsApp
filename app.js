@@ -8,12 +8,12 @@ let questionCounter = 0;
 for (let i = numberOfQuestions; i > 0; i--) {
     //console.log(i);
     //console.log(questionCounter);
-    console.log(questionArray[questionCounter] + `: ${i} questions left`);
-    userInputs.push(questionCounter);
+    userInputs.push(prompt(questionArray[questionCounter] + `: ${i} questions left`));
+    console.log(userInputs);
     questionCounter++;
 }
 
-console.log(userInputs)
+alert('All done! Ready for your totally-accurate, not-at-all confusing history of tech??')
 
 //Sample inputs
 //let userInputs = ["Splat Land", "Putin", "Crazed Goblin", "Goblinator"];
