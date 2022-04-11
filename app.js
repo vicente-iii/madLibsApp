@@ -6,6 +6,8 @@ let questionArray = ["Enter a venue", "Enter a name", "Enter a disgustign object
 let userInputs = [];
 let questionCounter = 0;
 for (let i = numberOfQuestions; i > 0; i--) {
+    console.log(i);
+    console.log(questionCounter);
     console.log(questionArray[questionCounter]);
     userInputs.push(questionCounter);
     questionCounter++;
