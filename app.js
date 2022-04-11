@@ -5,9 +5,10 @@ let questionArray = ["Enter a venue", "Enter a name", "Enter a disgustign object
 //Store user inputs
 let userInputs = [];
 let questionCounter = 0;
-for (let i = questionCounter; i < numberOfQuestions; i++) {
-    console.log(questionArray[i]);
-    userInputs.push(i);
+for (let i = numberOfQuestions; i > 0; i--) {
+    console.log(questionArray[questionCounter]);
+    userInputs.push(questionCounter);
+    questionCounter++;
 }
 
 console.log(userInputs)
